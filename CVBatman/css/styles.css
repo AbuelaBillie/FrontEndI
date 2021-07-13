@@ -1,0 +1,40 @@
+/*Encabezado*/
+.header{
+    background-color: #E5E5E5;
+}
+.logo{
+    display:block;
+    margin:0 auto;
+}
+h1{
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    background-color: #C4C4C4;
+    color: #005677;
+    text-align: center;
+}
+/*Main*/
+h2{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    background-color: #C4C4C4;
+    color: #005677;
+}
+.contenido{
+    width: 70%;
+    margin: 0 auto;
+}
+span{
+    font-weight: bold;
+}
+dt{
+    font-weight: bold;
+}
+/*Footer*/
+.pie{
+    text-align: center;
+    background-color:#005677;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
