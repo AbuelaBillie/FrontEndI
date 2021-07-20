@@ -1,17 +1,13 @@
 /*Encabezado*/
 .header{
+    text-align: center;
     background-color: #E5E5E5;
-}
-.logo{
-    display:block;
-    margin:0 auto;
 }
 h1{
     letter-spacing: 15px;
     text-transform: uppercase;
     background-color: #C4C4C4;
     color: #005677;
-    text-align: center;
 }
 /*Main*/
 h2{

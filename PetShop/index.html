@@ -5,17 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PetShop</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
-      <div>
+      <div class="navegadorArriba">
         <p>Grandes ofertas en comederos</p>
         <ul>
           <li>Español</li>
           <li>ARG$</li>
         </ul>
       </div>
-      <div>
+      <div class="navegador">
         <a href="#"
           ><img src="img/gato.png" alt="Icono de un gato" />
           <h1>Front<span>Cat&Dog</span></h1>
@@ -25,37 +33,25 @@
           <ul>
             <li>
               <a href="#categorias">
-                <img
-                  src="img/huellaBlanca.png"
-                  alt="Icono de una huella de perro"
-                />
+                <i class="fas fa-paw"></i>
                 Categorias
               </a>
             </li>
             <li>
               <a href="#pets">
-                <img
-                  src="img/huellaBlanca.png"
-                  alt="Icono de una huella de perro"
-                />
+                <i class="fas fa-paw"></i>
                 Pets
               </a>
             </li>
             <li>
               <a href="#nosotros">
-                <img
-                  src="img/huellaBlanca.png"
-                  alt="Icono de una huella de perro"
-                />
+                <i class="fas fa-paw"></i>
                 Nosotros
               </a>
             </li>
             <li>
               <a href="#contactanos">
-                <img
-                  src="img/huellaBlanca.png"
-                  alt="Icono de una huella de perro"
-                />
+                <i class="fas fa-paw"></i>
                 Contactanos
               </a>
             </li>
@@ -64,18 +60,14 @@
       </div>
     </header>
     <main>
-      <section>
-        <img
-          src="img/fondoBanner.png"
-          alt="Imagen de un comedero de mascotas"
-        />
-        <p>¡Es un placer tenerte aquí!</p>
+      <section class="banner">
+        <p class="saludo">¡Es un placer tenerte aquí!</p>
         <p>¡Comederos en descuento!</p>
         <a href="#">COMEDEROS</a>
       </section>
-      <section>
-        <img src="img/huellaNaranja.png" alt="Imagen de una huella de perro" />
-        <h2 align="center">Productos Destacados</h2>
+      <section class="promociones">
+        <i class="fas fa-paw"></i>
+        <h2>Productos Destacados</h2>
         <ul>
           <li>
             <a href="#comederos"> Comederos </a>
@@ -88,7 +80,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="productos">
         <div>
           <img
             src="img/churrasquitos.png"

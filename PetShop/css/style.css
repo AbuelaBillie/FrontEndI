@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+li {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+/*HEADER*/
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  display: inline-block;
+  color: #3c2313;
+}
+span {
+  color: #fff;
+}
+header {
+  background-color: #f0a83e;
+}
+.navegadorArriba {
+  background-color: #222222;
+  color: white;
+}
+.navegadorArriba p{
+  display: inline-block;
+}
+.navegadorArriba ul{
+  display: inline-block;
+}
+.navegadorArriba ul li{
+  display: inline-block;
+}
+.navegador nav {
+  display: inline-block;
+}
+.navegador nav a{
+  color: #fff;
+}
+.navegador nav li {
+  display: inline-block;
+  color: #fff;
+}
+.banner {
+  background-color: aqua;
+  background-image: url("../img/fondoBanner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+.promociones ul{
+  padding: 0px;
+}
+.promociones li {
+  display: inline-block;
+}
+.promociones {
+  text-align: center;
+}
+.promociones i{
+  color:#f0a83e;
+  font-size: 100px;
+}
+.promociones a{
+  color: #000;
+}
+.productos {
+  text-align: center;
+}
+.productos div {
+  text-align: center;
+  display: inline-block;
+}
+.saludo{
+  display: inline-block;
+  background-color:#fff;
+}
+.banner a{
+  color: #fff;
+  background-color: #f0a83e;
+}
