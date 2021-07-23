@@ -1,0 +1,99 @@
+/*General*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+a{
+    color: #fff;
+}
+/*Header*/
+.sale{
+    background-color: #1CD1B0;
+    height: 38px;
+    font-size: 15px;
+    padding: 10px 0 10px 10px;
+}
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    padding: 28px 0 28px 28px;
+    background-color:#00669F;
+    height: 100px;
+    box-shadow: 0px 10px 7px 0px darkgrey;
+}
+h1{
+    font-size: 40px;
+}
+/*Main*/
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin: 150px auto 150px auto;
+}
+.card{
+    width: 300px;
+    margin-bottom: 25px;
+    box-shadow: 0px 10px 7px 0px darkgrey;
+}
+.card-batman .like{
+    background-image: url("../img/cardBack_Batman.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 193px;
+    border-radius: 20px 20px 0 0;
+}
+.card-harley .like{
+    background-image: url("../img/cardBack_Harley.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 193px;
+    border-radius: 20px 20px 0 0;
+}
+.like i{
+    padding: 20px;
+    font-size: 30px;
+    color: #CC2424;
+}
+.img-perfil{
+    position: absolute;
+    top: -50px;
+    border-radius: 100px;
+    box-shadow: 0px 5px 4px 0px darkgrey;
+}
+.contenido{
+    position: relative;
+    height: 336px;
+    padding: 16px;
+    background-color: #F3F3F3;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: column;
+}
+.contenido h2{
+    margin-top: 50px;
+}
+.button{
+    margin-top: 20px;
+    background-color: #00669F;
+    height: 50px;
+    width: 128px;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 0px 5px 4px 0px darkgrey;
+}
+/*Footer*/
+footer{
+    background-color:#00669F;
+    height: 50px;
+    padding-top: 15px;
+    text-align: center;
+    color:#fff;
+}
