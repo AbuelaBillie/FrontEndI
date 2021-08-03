@@ -2,16 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 * {
     margin: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     text-decoration: none;
     box-sizing: border-box;
 }
-a{
+a, h1{
     color: #fff;
 }
 /*Header*/
 .sale{
-    background-color: #1CD1B0;
+    background-color: #D1891C;
     height: 38px;
     font-size: 15px;
     padding: 10px 0 10px 10px;
@@ -56,6 +56,20 @@ h1{
     height: 193px;
     border-radius: 20px 20px 0 0;
 }
+.card-maravilla .like{
+    background-image: url("../img/cardBack_Maravilla.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 193px;
+    border-radius: 20px 20px 0 0;
+}
+.card-superman .like{
+    background-image: url("../img/cardBack_Superman.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 193px;
+    border-radius: 20px 20px 0 0;
+}
 .like i{
     padding: 20px;
     font-size: 30px;
@@ -66,6 +80,8 @@ h1{
     top: -50px;
     border-radius: 100px;
     box-shadow: 0px 5px 4px 0px darkgrey;
+    width: 120px;
+    height: 120px;
 }
 .contenido{
     position: relative;
@@ -89,6 +105,23 @@ h1{
     padding-top: 15px;
     box-shadow: 0px 5px 4px 0px darkgrey;
 }
+.button-more{
+    border-radius: 50%;
+    background-color: #00669F;
+    position: fixed;
+    z-index: 999;
+    right: 1rem;
+    bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+}
+.fa-plus{
+    color: #fff;
+    font-size: 2.3rem;
+}
 /*Footer*/
 footer{
     background-color:#00669F;
@@ -97,3 +130,31 @@ footer{
     text-align: center;
     color:#fff;
 }
+
+@media screen and (max-width: 768px){
+    .contenido { 
+        flex-direction: column;
+    }
+    .card-container {
+        width: 100%;
+        margin: 50px auto 50px auto;
+        justify-content: space-evenly;
+    }
+    .card {
+        width: 300px;
+        margin-bottom: 70px;
+        box-shadow: 0px 10px 7px 0px darkgrey;
+    }
+}
+@media screen and (max-width: 480px){
+    h1{
+        font-size: 2rem;
+        text-align: center;
+        
+    }
+    header{
+        padding: 1rem;
+        height: 70px;
+    }
+}
+
