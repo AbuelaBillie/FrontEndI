@@ -1,9 +1,16 @@
+/*GENERAL*/
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 li {
   list-style: none;
 }
 a{
   text-decoration: none;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 /*HEADER*/
 
@@ -80,4 +87,96 @@ header {
 .banner a{
   color: #fff;
   background-color: #f0a83e;
+}
+.contacto form{
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 20rem;
+}
+.contacto form input{
+  width: 30rem;
+  background-color: #3C2313;
+  border: none;
+  border-radius: 15px;
+  padding: 1rem;
+}
+.contacto form input::placeholder {
+  color: #fff;
+}
+.botones{
+  display: flex;
+  align-items: center;
+  width: 10rem;
+}
+.botones input{
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  width: 1rem;
+}
+/*FOOTER*/
+
+.informacion{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.info{
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.icono{
+  background-color: #8A8787;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  font-size: 2.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 0.4rem;
+  border-style: solid;
+  border-color: #786960;
+}
+.datos{
+  display: flex;
+  justify-content: space-between;
+  background-color: #3C2313;
+  padding: 2rem 4rem;
+  height: 17rem;
+}
+.logo h3 {
+  display: inline-block;
+  color: #fff;
+  font-size: 2rem;
+}
+.logo span{
+  color: #f0a83e;
+}
+.logo{
+  align-self: center;
+}
+.texto{
+  margin-left: 2rem;
+}
+.texto p{
+  color: #8A8787;
+  font-size: 0.8rem;
+}
+.suscripciones{
+   background-color: #F0A83E;
+   height: 3.5rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0.5rem 4rem;
+}
+.derechos{
+  text-align: center;
+  background-color:  #222222;
+  color: #fff;
 }
