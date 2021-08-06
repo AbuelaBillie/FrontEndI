@@ -30,6 +30,10 @@ header {
 .navegadorArriba {
   background-color: #222222;
   color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
 }
 .navegadorArriba p{
   display: inline-block;
@@ -39,6 +43,13 @@ header {
 }
 .navegadorArriba ul li{
   display: inline-block;
+  padding: 0.5rem;
+}
+.navegador{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 3rem;
 }
 .navegador nav {
   display: inline-block;
@@ -49,6 +60,7 @@ header {
 .navegador nav li {
   display: inline-block;
   color: #fff;
+  padding: 0.5rem;
 }
 .banner {
   background-color: aqua;
@@ -56,6 +68,32 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding-right: 10rem;
+}
+.bienvenida{
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  height: 10rem;
+  justify-content: space-between;
+  text-align: center;
+}
+.bienvenida h2{
+  background-color: #fff;
+  font-size: 2rem;
+  height: 55px;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.bienvenida a{
+  width: 10rem;
+  height: 3rem;
+  padding: 1rem;
+  border-radius: 5px;
 }
 .promociones ul{
   padding: 0px;
@@ -64,6 +102,7 @@ header {
   display: inline-block;
 }
 .promociones {
+  margin-top: 3rem;
   text-align: center;
 }
 .promociones i{
@@ -102,6 +141,7 @@ header {
   border: none;
   border-radius: 15px;
   padding: 1rem;
+  color: #fff;
 }
 .contacto form input::placeholder {
   color: #fff;
@@ -109,14 +149,25 @@ header {
 .botones{
   display: flex;
   align-items: center;
-  width: 10rem;
+  justify-content: space-evenly;
+  width: 20rem;
 }
-.botones input{
+button{
   cursor: pointer;
   border: none;
   border-radius: 15px;
-  width: 1rem;
+  width: 8rem;
+  height: 3rem;
+  font-size: 1rem;
+  color: #fff;
 }
+.reset{
+  background-color: #8A8787;
+}
+.submit{
+  background-color: #F0A83E;
+}
+
 /*FOOTER*/
 
 .informacion{
@@ -169,11 +220,25 @@ header {
 }
 .suscripciones{
    background-color: #F0A83E;
-   height: 3.5rem;
+   height: 4.5rem;
    display: flex;
    justify-content: space-between;
    align-items: center;
    padding: 0.5rem 4rem;
+}
+.suscripciones form input{
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  width: 20rem;
+  height: 3rem;
+  font-size: 1rem;
+  background-color: #fff;
+  padding: 1rem;
+}
+.suscripciones button{
+  background-color: #3C2313;
+  margin-left: 0.3rem;
 }
 .derechos{
   text-align: center;
