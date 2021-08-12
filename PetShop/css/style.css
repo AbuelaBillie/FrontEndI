@@ -12,11 +12,11 @@ a{
   margin: 0;
   box-sizing: border-box;
 }
-/*HEADER*/
-
 body {
   font-family: "Roboto", sans-serif;
 }
+
+/*HEADER*/
 h1 {
   display: inline-block;
   color: #3c2313;
@@ -25,7 +25,11 @@ span {
   color: #fff;
 }
 header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
   background-color: #f0a83e;
+  box-shadow: 0px 5px 10px 0px rgba(54, 54, 54, 0.5);
 }
 .navegadorArriba {
   background-color: #222222;
@@ -45,6 +49,9 @@ header {
   display: inline-block;
   padding: 0.5rem;
 }
+.navegadorArriba ul li:hover{
+  color: #f0a83e;
+}
 .navegador{
   display: flex;
   align-items: center;
@@ -62,6 +69,11 @@ header {
   color: #fff;
   padding: 0.5rem;
 }
+.navegador nav a:hover{
+  color: #3C2313;
+}
+
+/*MAIN*/
 .banner {
   background-color: aqua;
   background-image: url("../img/fondoBanner.png");
@@ -81,11 +93,13 @@ header {
   height: 10rem;
   justify-content: space-between;
   text-align: center;
+  align-items: center;
 }
 .bienvenida h2{
   background-color: #fff;
   font-size: 2rem;
   height: 55px;
+  width: 30rem;
   padding: 0.5rem;
   border-radius: 5px;
 }
@@ -118,6 +132,12 @@ header {
 .productos div {
   text-align: center;
   display: inline-block;
+  margin: 5px;
+  margin-top: 20px;
+  padding: 5px;
+}
+.productos div:hover{
+  box-shadow: 0px 0px 10px 5px rgba(54, 54, 54, 0.5);
 }
 .saludo{
   display: inline-block;
@@ -126,6 +146,9 @@ header {
 .banner a{
   color: #fff;
   background-color: #f0a83e;
+}
+.banner a:hover{
+  background-color: #f79e19;
 }
 .contacto form{
   margin: 5rem auto;
@@ -164,8 +187,14 @@ button{
 .reset{
   background-color: #8A8787;
 }
+.reset:hover{
+  background-color: #757575;
+}
 .submit{
   background-color: #F0A83E;
+}
+.submit:hover{
+  background-color: #f79e19;
 }
 
 /*FOOTER*/
@@ -227,7 +256,6 @@ button{
    padding: 0.5rem 4rem;
 }
 .suscripciones form input{
-  cursor: pointer;
   border: none;
   border-radius: 15px;
   width: 20rem;
@@ -244,4 +272,13 @@ button{
   text-align: center;
   background-color:  #222222;
   color: #fff;
+}
+.suscripciones button:hover {
+  color: #fff;
+  background-color: #1f1006;
+  cursor: pointer;
+}
+.card:hover{
+  position: relative;
+  top: -4px;
 }
